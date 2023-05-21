@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container{
+            width:100%;
+            height:100vh;
+            background-color: rgb(229, 226, 226);
+            margin-left:auto;
+            margin-right:auto;
+            
+        }
+    
+        .resim{
+            width: 100vw;
+            height: 50vh;
+            background-image: url('ufo.png');
+            background-repeat: no-repeat;
+            background-size:50% 80%;
+            background-position:center center ;
+        }
+        .beyaz{
+            width: 100vw;
+            height: 50vh;
+            background-color: white;
+            position: relative;
+        }
+        .beyaz .kutu{
+            width: 19vw;
+            height: 70vh;
+            border:1px solid rgb(220, 217, 217);
+            background-color: white;
+            display: inline-block;
+            padding:3%;
+            position: absolute;
+            top:-20vh;
+            
+        }
+        .beyaz .kutu:nth-child(1){
+            margin-left:10%;
+            
+        } 
+        .beyaz .kutu:nth-child(3){
+            margin-right:10%;
+           left:62vw;
+        }
+        .beyaz .kutu:nth-child(even){
+            margin-left:1%;
+            margin-right:1%;
+            left:35vw;
+            z-index:1;
+
+        }
+        .beyaz .kutu .cerceve{
+          padding-left:3%;
+          padding-right:3%;
+          width: 18vw;
+          height:15rem;
+          border:1px solid rgb(192, 191, 191);
+          border-radius: 150px;
+        }
+        .beyaz .kutu .cerceve img{
+            width: 100%;
+            height: 100%;
+        }
+        .beyaz .kutu .yazi h1{
+            font-size: 1.6vw;
+            color:black;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        .beyaz .kutu .yazi h4{
+            color:rgb(10, 92, 207);
+            text-transform: lowercase;
+            text-align: center;
+        }
+        .beyaz .kutu .yazi p{
+            text-align: center;
+        }
+        .beyaz .kutu .yazi ul li{
+            display: inline-block;
+            text-align: center;
+            padding:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="resim"></div>
+         <div class="beyaz">
+            <div class="kutu">
+                <div class="cerceve">
+                    <img src="ufo.png"/>
+                </div>
+                <div class="yazi">
+                    <h1>Jefrrey Brown</h1>
+                    <h4>Creative Leader</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta fuga nostrum rem! At id fugiat alias assumenda odit, obcaecati quisquam aliquid placeat modi. Officiis, vero? </p>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="kutu">
+                <div class="cerceve">
+                    <img src="ufo.png"/>
+                </div>
+                <div class="yazi">
+                    <h1>Jefrrey Brown</h1>
+                    <h4>Creative Leader</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta fuga nostrum rem! At id fugiat alias assumenda odit, obcaecati quisquam aliquid placeat modi. Officiis, vero? </p>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="kutu">
+                <div class="cerceve">
+                    <img src="ufo.png"/>
+                </div>
+                <div class="yazi">
+                    <h1>Jefrrey Brown</h1>
+                    <h4>Creative Leader</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta fuga nostrum rem! At id fugiat alias assumenda odit, obcaecati quisquam aliquid placeat modi. Officiis, vero? </p>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+    </div>
+</body>
+</html>

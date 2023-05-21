@@ -1,0 +1,43 @@
+.sari{
+    background-color: rgb(230, 184, 21);
+}
+.line-group p{
+   width: 15vw;
+   }
+.form-group{
+    background-color: white;
+    border-radius: 20px;
+    width: 25vw;
+    padding:5px 5px 10px 10px;
+    /*ust sag alt soldaki*/
+}
+.form-group input{
+    border:none;
+    text-decoration: none;
+   
+}
+.sari_btn{
+    background-color: rgb(230, 184, 21); 
+    border-radius: 20px;
+    font-weight: bold;
+}
+#mavi{
+    width: 100%;
+    height: auto;
+    background-color: rgb(3, 44, 147);
+    margin:0px;
+    padding:0px;
+}
+#mavi h1,h2,h3{
+    color:white;
+    font-weight: bold;
+}
+.kutu{
+    text-align: center;
+    padding:15px;
+    background-color: gainsboro;
+    border-radius:10px;
+    margin-left:5px;
+    margin-right:5px;
+    width: 100px;
+}

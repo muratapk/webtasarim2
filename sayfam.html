@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>Form Sayfası</title>
+</head>
+<body>
+    <h1>Form Sayfası</h1>
+    <hr>
+    <form>
+        <label>Adınız Soyadınız</label><br>
+        <input type="text" name="ad" placeholder="Adı ve Soyad" ><br>
+        <label>Yaşınız</label><br>
+        <input type="number" name="yas" placeholder="Yaşınızı Sayı olarak Gir">
+        <br>
+        <input type="radio" name="cins" value="1"/>Erkek 
+        <input type="radio" name="cins" value="2"/>Kadın
+        <br>
+        <input type="checkbox" name="mezun" >İlkokul
+        <input type="checkbox" name="mezun" >Ortaokul
+        <input type="checkbox" name="mezun" >Lise
+        <input type="checkbox" name="mezun" >Fakülte
+        <br>
+        <label>Doğum Yeriniz</label>
+        <select>
+            <option>İstanbul</option>
+            <option>Ankara</option>
+            <option>Bursa</option>
+            <option>Erzurum</option>
+        </select>
+        <br>
+        <textarea name="mesaj" rows="10" cols="50"></textarea>
+        <br>
+
+        <input type="date" name="tarih"/><br>
+        <input type="color" name="renk"/><br>
+        <input type="password" name="sifre"/><br>
+        <input type="submit" value="Gönder"/>
+        <input type="reset" value="Temizle"/>
+    </form> 
+</body>
+
+</html>

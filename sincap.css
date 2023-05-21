@@ -1,0 +1,24 @@
+.arka{
+    background-color: rgba(111, 103, 103, 0.764);
+}
+.hak{
+    font-size:0.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.baslik{
+    font-size:2.7rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+.butonum{
+    background-color: rgb(6, 160, 6);
+    color:white;
+    border-radius: 2px;
+    border:none;
+    padding:10px;
+}
+.nokta{
+    text-decoration: dotted underline;
+    color:white;
+}

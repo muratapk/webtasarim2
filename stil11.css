@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet');
+
+:root{
+    --primary:#FAC789;
+    --secondary:#8C5320;
+    --third:#331C0E;
+    --fourty:#571404;
+    --fifty:#881C0A;
+    --white-color:#fff;
+    --primary-font:'Heebo',sans-serif;
+    --second-font:'Kanit',sans-serif;
+    --primary-text:#061738;
+}
+body,html{
+    line-height: 1.5;
+    color:var(--primary-text);
+    font-size:0.9rem;
+    font-family: var(--primary-font);
+    scroll-behavior: smooth;
+    font-weight:400;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+h1{
+    line-height: 1.4;
+    font-weight: 600;
+    color:var(--primary-text);
+    font-size:9rem;
+}
+h2{
+    margin-bottom:2rem;
+    text-transform: capitalize;
+    line-height: 1.2;
+    font-weight: 600;
+    font-size:4.2rem;
+    display:inline-block;
+
+}
+h3{
+    font-weight: 700;
+    line-height: 1.2;
+    font-size:3.1rem;
+    color:var(--white-color);
+}
+h4{
+    font-size:2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color:var(--primary-text);
+}
+h5{
+    font-size:1.8rem;
+    font-weight: 600;
+    line-height: 1;
+    color:var(--primary-text);
+}
+p{
+    font-size:1.6rem;
+    line-height: 1.6;
+    margin-top:1rem;
+    color:var(--primary-text);
+    font-family: var(--second-font);
+}
+header .navbar{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 20px 10px 10px 20px;
+    box-shadow: 2px 2px 1px var(--secondary);
+    padding:1rem 2rem;
+}
+.header .navbar-brand{
+    width:7.5rem;
+    margin-top:-0.1rem;
+}
+.header .navbar-nav .nav-link{
+    font-family: var(--second-font);
+    font-weight: 600;
+    font-size:1.4rem;
+    margin:0 0.2rem;
+    padding:0.5rem 2rem;
+
+}

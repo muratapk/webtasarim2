@@ -1,0 +1,26 @@
+.turuncu{
+     font-size:7rem;
+    color:orange;
+    
+}
+.slider{
+    background: rgb(240,240,247);
+    background: linear-gradient(0deg, rgba(240,240,247,1) 0%, rgba(159,161,162,1) 100%);
+}
+.kutu{
+    width: 25vw;
+    height: 40vh;
+    border-radius:15px;
+    transition: 1s all;
+    color:white;
+}
+.kutu:hover{
+    border-radius: 30px;
+}
+.yazilar .yazi{
+    width: 25vw;
+    height: 31vh;
+    border-radius:15px;
+    background-color: rgb(207, 209, 211);
+    margin-bottom:1%;
+}
